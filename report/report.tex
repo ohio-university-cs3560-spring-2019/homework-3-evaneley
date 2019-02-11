@@ -1,0 +1,13 @@
+\documentclass{article} \usepackage[utf8]{inputenc} \title{Standard Deviation} 
+\author{Evan Eley} \date{February 11, 2019} \begin{document} \maketitle \vspace{25mm} 
+Standard deviation is a quantity calculated to indicate the extent of deviation for a 
+group as a whole. The standard deviation is calculated using the equation: 
+\begin{equation}
+    \sigma = \sqrt{\frac{\sum (Xi - \bar{X})^2}{n}} \end{equation} Where $\sigma$ is 
+the standard deviation, $Xi$ is an index of the array, $\bar{X}$ is the average X 
+value, and $n$ is the number of entries in the array. So essentially, the program 
+will take the sum of all the entries in the array to find $\bar{X}$, then it will 
+calculate the summation of $(Xi - \bar{X})^2$, divide by the size of the data, $n$, 
+which is given through a parameter in the function, and finally take the square root 
+of everything to give us the standard deviation.
+\end{document}
